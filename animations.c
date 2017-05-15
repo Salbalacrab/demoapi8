@@ -182,7 +182,7 @@ void animation_kids2(int state) {
   case GL4DH_UPDATE_WITH_AUDIO:
     return;
   default: /* GL4DH_DRAW */
-    kids_draw();
+    kids2_draw();
     return;
   }
 }
